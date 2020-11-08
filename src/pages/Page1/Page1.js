@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-
+import './Page1.css';
+import cat from './images/github-cat.png';
 export default class Page1 extends Component {
   render() {
-    return <div>This Is Page1!</div>;
+    return (
+      <div className='page-box'>
+        this is page1~
+        <img src={cat}></img>
+      </div>
+    );
   }
 }
